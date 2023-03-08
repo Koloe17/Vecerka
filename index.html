@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendly večerka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\sidebars\sidebars.css">
+    <link href="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\assets\dist\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\headers\headers.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+</head>
+<body>
+        <header class="py-3 mb-3 border-bottom">
+            <div class="container-fluid d-grid gap-3 align-items-space-between" style="grid-template-columns: 1fr 2fr;">
+              <div class="img-fluid">
+                <a href="#" class="d-flex align-items-center col-xs-1 col-sm-2 col-md-3 col-lg-4 col-xl-5 mb-2 mb-lg-0 link-dark text-decoration-none">
+                  <img class="d-block w-75 h-auto mx-auto" src="Bez_nazvu.png" alt="">
+                </a>
+              </div>
+        
+              <div class="d-flex align-items-center">
+                <form class="w-100 me-3" role="search">
+                  <input type="search" class="form-control" placeholder="Hledat..." aria-label="Search">
+                </form>
+        
+                <div class="flex-shrink-0 dropdown">
+                  <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="egghead.PNG" alt="mdo" width="32" height="32" class="rounded-circle">
+                  </a>
+                  <ul class="dropdown-menu text-small shadow">
+                    <li><a class="dropdown-item" href="#">Nastavení</a></li>
+                    <li><a class="dropdown-item" href="#">Profil</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Odhlásit se</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+    <article>
+        <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+            <a href="#" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+              <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-5 fw-semibold">Produkty</span>
+            </a>
+            <ul class="list-unstyled ps-0">
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  Pečivo
+                </button>
+                <div class="collapse show" id="home-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Vše</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Classic</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Celozrné</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sladké</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Slané</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Bez lepku</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                  Maso/Uzeniny
+                </button>
+                <div class="collapse" id="dashboard-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Weekly</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Monthly</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Annually</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#guns-collapse" aria-expanded="false">
+                  Děti
+                </button>
+                <div class="collapse" id="guns-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Processed</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                  Domácí mazlíčci
+                </button>
+                <div class="collapse" id="orders-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Processed</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+    <div class="obal">
+        <h2>Přímo pro vás</h2>
+        <div class="sortiment">
+            <main class="vh-100 overflow-auto" data-spy="scroll">
+
+
+                <div class="album py-5 bg-light">
+                  <div class="container">
+              
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.donpealo.cz/admin/upload/ModuleItem/2341/50012300.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Žvíkačky - retro</text></svg>
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                                
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">10 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.nopek.cz/userfiles/photogallery/big/rohlik-standard-43g__mi001-251.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Rohlík - classic</text></svg>
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                                
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">2.50 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Toiletpapier_%28Gobran111%29.jpg/1200px-Toiletpapier_%28Gobran111%29.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Hovnotřit 2000 toaletní papír</text></svg>
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                                
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">15 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.mybabystore.cz/8401-large_default/suavinex-fyziologicky-dudlik-silikon-1ks.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Zavřhub 380 dudlík</text></svg>
+                          <div class="card-body">
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                                
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">80 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.pepsi.cz/images/article-products_4.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Pepsi - různé druhy</text></svg>
+                          <div class="card-body">
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">23.90 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://laysky-cz.wspprod.com/images/pages/main/blocks/strong.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Lays STRONG - různé druhy</text></svg>
+                          <div class="card-body">
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">42.90 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://ae01.alicdn.com/kf/Udbc134dc10b849aeb7f7e14c3faaecb2L/Set-tools-with-chocolate-and-candy-jelly-beans-papita-with-cream-with.jpg_Q90.jpg_.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Papita - různé druh</text></svg>
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">10 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMy1HIAzVbyTV7acfl6F8qHfRkTbLQEAfAqg&usqp=CAU" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Tiger Energy - různé druhy</text></svg>
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                                
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">25 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://cdn.myshoptet.com/usr/www.nejkafe.cz/user/shop/big/9426_red-band-tutti-frutti-original-nejkafe-cz.jpg?6142e69e" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Tutti frutti</text></svg>
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-primary">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Do košíku</button>
+                                
+                              </div>
+                              <p class="bg-muted mt-auto mb-auto">7.90 Kč</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+    </article>
+    
+    <script src="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\assets\dist\js\bootstrap.bundle.min.js"></script>
+
+      <script src="bootstrap-5.3.0-alpha1-examples\bootstrap-5.3.0-alpha1-examples\sidebars\sidebars.js"></script>
+</body>
+</html>
